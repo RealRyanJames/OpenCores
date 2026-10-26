@@ -1,0 +1,16 @@
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.AssemblyInfoInputs.cache
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.AssemblyInfo.cs
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.csproj.CoreCompileInputs.cache
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.exe
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.deps.json
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.runtimeconfig.json
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.runtimeconfig.dev.json
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.dll
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\bin\Debug\net11.0\Program.pdb
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.dll
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\refint\Program.dll
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.pdb
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.genruntimeconfig.cache
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\ref\Program.dll
+C:\Users\Ryan\Desktop\C++ Projects\OpenCores\Program\obj\Debug\net11.0\Program.csproj.Up2Date
