@@ -1,16 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "t94JEh3VzBc=",
+  "dgSpecHash": "R460/7gnpqk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ryan\\Desktop\\C++ Projects\\OpenCores\\Program\\Program.csproj",
+  "projectFilePath": "C:\\Users\\Ryan\\Desktop\\CSharp Projects\\OpenCores\\Program\\Program.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\11.0.0-rc.2.26504.105\\microsoft.dotnet.ilcompiler.11.0.0-rc.2.26504.105.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.net.illink.tasks\\11.0.0-rc.2.26504.105\\microsoft.net.illink.tasks.11.0.0-rc.2.26504.105.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\11.0.0-rc.2.26504.105\\runtime.win-x64.microsoft.dotnet.ilcompiler.11.0.0-rc.2.26504.105.nupkg.sha512",
-    "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\11.0.0-rc.2.26504.105\\microsoft.netcore.app.runtime.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
-    "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\11.0.0-rc.2.26504.105\\microsoft.windowsdesktop.app.runtime.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\11.0.0-rc.2.26504.105\\microsoft.aspnetcore.app.runtime.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.netcore.app.runtime.nativeaot.win-x64\\11.0.0-rc.2.26504.105\\microsoft.netcore.app.runtime.nativeaot.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\11.0.0-rc.2.26504.105\\microsoft.netcore.app.runtime.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
+    "C:\\Users\\Ryan\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\11.0.0-rc.2.26504.105\\microsoft.windowsdesktop.app.runtime.win-x64.11.0.0-rc.2.26504.105.nupkg.sha512",
     "C:\\Users\\Ryan\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\11.0.0-rc.2.26504.105\\runtime.win-x64.microsoft.dotnet.ilcompiler.11.0.0-rc.2.26504.105.nupkg.sha512"
   ],
   "logs": []

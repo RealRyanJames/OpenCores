@@ -10,4 +10,8 @@
     <UserSecretsId>Program-6f53808d76eb0f268f4b4941847f6f7268cbe37b238ea41d4223951edb91c2a5</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+  </ItemGroup>
+
 </Project>

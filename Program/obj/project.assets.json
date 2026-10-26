@@ -13,6 +13,19 @@
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
+      },
+      "Npgsql/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net11.0/win-x64": {
@@ -29,6 +42,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Npgsql/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
         }
       },
       "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
@@ -115,6 +141,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Npgsql/10.0.3": {
+      "sha512": "7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "type": "package",
+      "path": "npgsql/10.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Npgsql.dll",
+        "lib/net10.0/Npgsql.xml",
+        "lib/net8.0/Npgsql.dll",
+        "lib/net8.0/Npgsql.xml",
+        "lib/net9.0/Npgsql.dll",
+        "lib/net9.0/Npgsql.xml",
+        "npgsql.10.0.3.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
       "sha512": "jKElczEvNBZbkzqCilaPufnKkdJKToj5MAO9zenCtSqEacJ1vLTpISuDQfvFeFcn21b1NRK1ekI7n3NYvkDAcA==",
       "type": "package",
@@ -141,7 +186,8 @@
   "projectFileDependencyGroups": {
     "net11.0": [
       "Microsoft.DotNet.ILCompiler >= 11.0.0-rc.2.26504.105",
-      "Microsoft.NET.ILLink.Tasks >= 11.0.0-rc.2.26504.105"
+      "Microsoft.NET.ILLink.Tasks >= 11.0.0-rc.2.26504.105",
+      "Npgsql >= 10.0.3"
     ]
   },
   "packageFolders": {
@@ -150,11 +196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\C++ Projects\\OpenCores\\Program\\Program.csproj",
+      "projectUniqueName": "C:\\Users\\Ryan\\Desktop\\CSharp Projects\\OpenCores\\Program\\Program.csproj",
       "projectName": "Program",
-      "projectPath": "C:\\Users\\Ryan\\Desktop\\C++ Projects\\OpenCores\\Program\\Program.csproj",
+      "projectPath": "C:\\Users\\Ryan\\Desktop\\CSharp Projects\\OpenCores\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\Ryan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ryan\\Desktop\\C++ Projects\\OpenCores\\Program\\obj\\",
+      "outputPath": "C:\\Users\\Ryan\\Desktop\\CSharp Projects\\OpenCores\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ryan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -200,6 +246,10 @@
             "target": "Package",
             "version": "[11.0.0-rc.2.26504.105, )",
             "autoReferenced": true
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[10.0.3, )"
           }
         },
         "imports": [
