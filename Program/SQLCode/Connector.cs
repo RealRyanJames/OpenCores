@@ -5,14 +5,14 @@ interface IConnection
     void Connection();
     string URLId(string urlID);
 
-    string fetchData(string data);
+    string FetchData(string data);
 }
 
 
 namespace Program.SQLCode
 {
 
-    class PGConnector : IConnection
+    public class PGConnector : IConnection
     {
         public async void Connection()
         {
@@ -29,13 +29,15 @@ namespace Program.SQLCode
             {
 
                 var Id = readKey.GetInt32(0);
-                Console.WriteLine("Id: " + Id);
+                Console.WriteLine(FetchData("Id") + Id);
 
             }
-            
+
+            await using var command = new NpgsqlCommand("INSERT INTO Persons (name) VALUES (@name)", connection: connection);
+
         }
 
-        public string fetchData(string data)
+        public string FetchData(string data)
         {
             return data.ToLower();
         }

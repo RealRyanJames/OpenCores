@@ -2,13 +2,13 @@
   "version": 4,
   "targets": {
     "net11.0": {
-      "Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
+      "Microsoft.DotNet.ILCompiler/11.0.0-rc.3.26522.148": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/11.0.0-rc.2.26504.105": {
+      "Microsoft.NET.ILLink.Tasks/11.0.0-rc.3.26522.148": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -29,16 +29,16 @@
       }
     },
     "net11.0/win-x64": {
-      "Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
+      "Microsoft.DotNet.ILCompiler/11.0.0-rc.3.26522.148": {
         "type": "package",
         "dependencies": {
-          "runtime.win-x64.Microsoft.DotNet.ILCompiler": "11.0.0-rc.2.26504.105"
+          "runtime.win-x64.Microsoft.DotNet.ILCompiler": "11.0.0-rc.3.26522.148"
         },
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/11.0.0-rc.2.26504.105": {
+      "Microsoft.NET.ILLink.Tasks/11.0.0-rc.3.26522.148": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -57,16 +57,16 @@
           }
         }
       },
-      "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
+      "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.3.26522.148": {
         "type": "package"
       }
     }
   },
   "libraries": {
-    "Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
-      "sha512": "6yeR3nENReUAbLaOEeX3krUEYCr3ufnbXRnYS3IvM2piBTwKcaA3pzhI2D8XZhj514zX+lU0P/8M04ZrFwTT7w==",
+    "Microsoft.DotNet.ILCompiler/11.0.0-rc.3.26522.148": {
+      "sha512": "kOWENZaHawMp+lsWoG6KLfyOrEtB41EJ2W+A2FXYjsU7I1UUmajht+l7+gbm/2WSePJ+npzaIDBU+kFgiD4VhQ==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/11.0.0-rc.2.26504.105",
+      "path": "microsoft.dotnet.ilcompiler/11.0.0-rc.3.26522.148",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -83,17 +83,17 @@
         "build/NativeAOT.natstepfilter",
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
-        "microsoft.dotnet.ilcompiler.11.0.0-rc.2.26504.105.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.11.0.0-rc.3.26522.148.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
         "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/11.0.0-rc.2.26504.105": {
-      "sha512": "Mkb6kHfPr4/txc4n/41yUiEBT44Haup2qnyecIO1ADo2QB4YxleZHsOvgYJT6roL1SNuFSpbeNpoe70BJ953Uw==",
+    "Microsoft.NET.ILLink.Tasks/11.0.0-rc.3.26522.148": {
+      "sha512": "SWnTMx96mhBr9LCOySJg1ETlEFFHVsPGdVT02JnYhtqk1+Vke1J7RU3VkKwEiErBr4FJ42Uu4k7GdOtkRuvs/Q==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/11.0.0-rc.2.26504.105",
+      "path": "microsoft.net.illink.tasks/11.0.0-rc.3.26522.148",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -107,7 +107,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.11.0.0-rc.2.26504.105.nupkg.sha512",
+        "microsoft.net.illink.tasks.11.0.0-rc.3.26522.148.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net/ILLink.Tasks.deps.json",
         "tools/net/ILLink.Tasks.dll",
@@ -160,17 +160,17 @@
         "postgresql.png"
       ]
     },
-    "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.2.26504.105": {
-      "sha512": "jKElczEvNBZbkzqCilaPufnKkdJKToj5MAO9zenCtSqEacJ1vLTpISuDQfvFeFcn21b1NRK1ekI7n3NYvkDAcA==",
+    "runtime.win-x64.Microsoft.DotNet.ILCompiler/11.0.0-rc.3.26522.148": {
+      "sha512": "MM76oeeNCqPw/G6Fn1FN8/OCp8u3c/5Xb/yu1Vm0ZuqLtMZjsBTXRpPEbq//Gb1QIXy9f0hWT0CiY2LWVwGvLQ==",
       "type": "package",
-      "path": "runtime.win-x64.microsoft.dotnet.ilcompiler/11.0.0-rc.2.26504.105",
+      "path": "runtime.win-x64.microsoft.dotnet.ilcompiler/11.0.0-rc.3.26522.148",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "runtime.win-x64.microsoft.dotnet.ilcompiler.11.0.0-rc.2.26504.105.nupkg.sha512",
+        "runtime.win-x64.microsoft.dotnet.ilcompiler.11.0.0-rc.3.26522.148.nupkg.sha512",
         "runtime.win-x64.microsoft.dotnet.ilcompiler.nuspec",
         "tools/clrjit_universal_arm64_x64.dll",
         "tools/clrjit_universal_arm_x64.dll",
@@ -185,8 +185,8 @@
   },
   "projectFileDependencyGroups": {
     "net11.0": [
-      "Microsoft.DotNet.ILCompiler >= 11.0.0-rc.2.26504.105",
-      "Microsoft.NET.ILLink.Tasks >= 11.0.0-rc.2.26504.105",
+      "Microsoft.DotNet.ILCompiler >= 11.0.0-rc.3.26522.148",
+      "Microsoft.NET.ILLink.Tasks >= 11.0.0-rc.3.26522.148",
       "Npgsql >= 10.0.3"
     ]
   },
@@ -238,13 +238,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[11.0.0-rc.2.26504.105, )",
+            "version": "[11.0.0-rc.3.26522.148, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[11.0.0-rc.2.26504.105, )",
+            "version": "[11.0.0-rc.3.26522.148, )",
             "autoReferenced": true
           },
           "Npgsql": {
@@ -266,23 +266,23 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[11.0.0-rc.2.26504.105, 11.0.0-rc.2.26504.105]"
+            "version": "[11.0.0-rc.3.26522.148, 11.0.0-rc.3.26522.148]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.NativeAOT.win-x64",
-            "version": "[11.0.0-rc.2.26504.105, 11.0.0-rc.2.26504.105]"
+            "version": "[11.0.0-rc.3.26522.148, 11.0.0-rc.3.26522.148]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[11.0.0-rc.2.26504.105, 11.0.0-rc.2.26504.105]"
+            "version": "[11.0.0-rc.3.26522.148, 11.0.0-rc.3.26522.148]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[11.0.0-rc.2.26504.105, 11.0.0-rc.2.26504.105]"
+            "version": "[11.0.0-rc.3.26522.148, 11.0.0-rc.3.26522.148]"
           },
           {
             "name": "runtime.win-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[11.0.0-rc.2.26504.105, 11.0.0-rc.2.26504.105]"
+            "version": "[11.0.0-rc.3.26522.148, 11.0.0-rc.3.26522.148]"
           }
         ],
         "frameworkReferences": {
@@ -290,18 +290,18 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.2.26504.105/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\11.0.100-rc.3.26522.148/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
-          "Microsoft.Extensions.Caching.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Configuration.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Diagnostics.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.FileProviders.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Hosting.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Logging.Abstractions": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Options": "(,11.0.0-rc.2.26504.105]",
-          "Microsoft.Extensions.Primitives": "(,11.0.0-rc.2.26504.105]",
+          "Microsoft.Extensions.Caching.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Configuration.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.FileProviders.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Hosting.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Logging.Abstractions": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Options": "(,11.0.0-rc.3.26522.148]",
+          "Microsoft.Extensions.Primitives": "(,11.0.0-rc.3.26522.148]",
           "Microsoft.NETCore.App": "(,2.2.32767]",
           "Microsoft.NETCore.DotNetHost": "(,8.0.32767]",
           "Microsoft.NETCore.DotNetHostPolicy": "(,8.0.32767]",
@@ -474,7 +474,7 @@
           "System.Buffers": "(,5.0.32767]",
           "System.Collections": "(,4.3.32767]",
           "System.Collections.Concurrent": "(,4.3.32767]",
-          "System.Collections.Immutable": "(,11.0.0-rc.2.26504.105]",
+          "System.Collections.Immutable": "(,11.0.0-rc.3.26522.148]",
           "System.Collections.NonGeneric": "(,4.3.32767]",
           "System.Collections.Specialized": "(,4.3.32767]",
           "System.ComponentModel": "(,4.3.32767]",
@@ -487,7 +487,7 @@
           "System.Data.DataSetExtensions": "(,4.5.32767]",
           "System.Diagnostics.Contracts": "(,4.3.32767]",
           "System.Diagnostics.Debug": "(,4.3.32767]",
-          "System.Diagnostics.DiagnosticSource": "(,11.0.0-rc.2.26504.105]",
+          "System.Diagnostics.DiagnosticSource": "(,11.0.0-rc.3.26522.148]",
           "System.Diagnostics.FileVersionInfo": "(,4.3.32767]",
           "System.Diagnostics.Process": "(,4.3.32767]",
           "System.Diagnostics.StackTrace": "(,4.3.32767]",
@@ -497,8 +497,8 @@
           "System.Diagnostics.Tracing": "(,4.3.32767]",
           "System.Drawing.Primitives": "(,4.3.32767]",
           "System.Dynamic.Runtime": "(,4.3.32767]",
-          "System.Formats.Asn1": "(,11.0.0-rc.2.26504.105]",
-          "System.Formats.Tar": "(,11.0.0-rc.2.26504.105]",
+          "System.Formats.Asn1": "(,11.0.0-rc.3.26522.148]",
+          "System.Formats.Tar": "(,11.0.0-rc.3.26522.148]",
           "System.Globalization": "(,4.3.32767]",
           "System.Globalization.Calendars": "(,4.3.32767]",
           "System.Globalization.Extensions": "(,4.3.32767]",
@@ -512,25 +512,25 @@
           "System.IO.FileSystem.Watcher": "(,4.3.32767]",
           "System.IO.IsolatedStorage": "(,4.3.32767]",
           "System.IO.MemoryMappedFiles": "(,4.3.32767]",
-          "System.IO.Pipelines": "(,11.0.0-rc.2.26504.105]",
+          "System.IO.Pipelines": "(,11.0.0-rc.3.26522.148]",
           "System.IO.Pipes": "(,4.3.32767]",
           "System.IO.Pipes.AccessControl": "(,5.0.32767]",
           "System.IO.UnmanagedMemoryStream": "(,4.3.32767]",
           "System.Linq": "(,4.3.32767]",
-          "System.Linq.AsyncEnumerable": "(,11.0.0-rc.2.26504.105]",
+          "System.Linq.AsyncEnumerable": "(,11.0.0-rc.3.26522.148]",
           "System.Linq.Expressions": "(,4.3.32767]",
           "System.Linq.Parallel": "(,4.3.32767]",
           "System.Linq.Queryable": "(,4.3.32767]",
           "System.Memory": "(,5.0.32767]",
           "System.Net.Http": "(,4.3.32767]",
-          "System.Net.Http.Json": "(,11.0.0-rc.2.26504.105]",
+          "System.Net.Http.Json": "(,11.0.0-rc.3.26522.148]",
           "System.Net.NameResolution": "(,4.3.32767]",
           "System.Net.NetworkInformation": "(,4.3.32767]",
           "System.Net.Ping": "(,4.3.32767]",
           "System.Net.Primitives": "(,4.3.32767]",
           "System.Net.Requests": "(,4.3.32767]",
           "System.Net.Security": "(,4.3.32767]",
-          "System.Net.ServerSentEvents": "(,11.0.0-rc.2.26504.105]",
+          "System.Net.ServerSentEvents": "(,11.0.0-rc.3.26522.148]",
           "System.Net.Sockets": "(,4.3.32767]",
           "System.Net.WebHeaderCollection": "(,4.3.32767]",
           "System.Net.WebSockets": "(,4.3.32767]",
@@ -545,7 +545,7 @@
           "System.Reflection.Emit.ILGeneration": "(,4.7.32767]",
           "System.Reflection.Emit.Lightweight": "(,4.7.32767]",
           "System.Reflection.Extensions": "(,4.3.32767]",
-          "System.Reflection.Metadata": "(,11.0.0-rc.2.26504.105]",
+          "System.Reflection.Metadata": "(,11.0.0-rc.3.26522.148]",
           "System.Reflection.Primitives": "(,4.3.32767]",
           "System.Reflection.TypeExtensions": "(,4.7.32767]",
           "System.Resources.Reader": "(,4.3.32767]",
@@ -577,17 +577,17 @@
           "System.Security.Principal.Windows": "(,5.0.32767]",
           "System.Security.SecureString": "(,4.3.32767]",
           "System.Text.Encoding": "(,4.3.32767]",
-          "System.Text.Encoding.CodePages": "(,11.0.0-rc.2.26504.105]",
+          "System.Text.Encoding.CodePages": "(,11.0.0-rc.3.26522.148]",
           "System.Text.Encoding.Extensions": "(,4.3.32767]",
-          "System.Text.Encodings.Web": "(,11.0.0-rc.2.26504.105]",
-          "System.Text.Json": "(,11.0.0-rc.2.26504.105]",
+          "System.Text.Encodings.Web": "(,11.0.0-rc.3.26522.148]",
+          "System.Text.Json": "(,11.0.0-rc.3.26522.148]",
           "System.Text.RegularExpressions": "(,4.3.32767]",
           "System.Threading": "(,4.3.32767]",
-          "System.Threading.AccessControl": "(,11.0.0-rc.2.26504.105]",
-          "System.Threading.Channels": "(,11.0.0-rc.2.26504.105]",
+          "System.Threading.AccessControl": "(,11.0.0-rc.3.26522.148]",
+          "System.Threading.Channels": "(,11.0.0-rc.3.26522.148]",
           "System.Threading.Overlapped": "(,4.3.32767]",
           "System.Threading.Tasks": "(,4.3.32767]",
-          "System.Threading.Tasks.Dataflow": "(,11.0.0-rc.2.26504.105]",
+          "System.Threading.Tasks.Dataflow": "(,11.0.0-rc.3.26522.148]",
           "System.Threading.Tasks.Extensions": "(,5.0.32767]",
           "System.Threading.Tasks.Parallel": "(,4.3.32767]",
           "System.Threading.Thread": "(,4.3.32767]",

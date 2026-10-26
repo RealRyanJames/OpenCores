@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Program.SQLCode;
 
 namespace OpenCores
 {
@@ -20,16 +21,23 @@ namespace OpenCores
                     if (contents.Contains(GetPicked(GArgs.VisitPortal.Google)))
                     {
                         Process.Start("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", GetPicked(GArgs.VisitPortal.Google));
+                        PGConnector conn = new();
+                        conn.Connection();
                     }
 
                     if (contents.Contains(GetPicked(GArgs.VisitPortal.YouTube)))
                     {
                         Process.Start("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", GetPicked(GArgs.VisitPortal.YouTube));
+                        PGConnector conn = new();
+                        conn.Connection();
                     }
 
                     else
                     {
                         Process.Start("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe", contents);
+
+                        PGConnector conn = new();
+                        conn.Connection();
 
                     }
                 }
